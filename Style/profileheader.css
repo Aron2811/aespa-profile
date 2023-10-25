@@ -1,0 +1,52 @@
+
+
+html {
+  overflow-x: hidden;
+}
+
+
+
+
+
+.profile-header {
+  position: fixed;
+  background: linear-gradient(45deg,#A7C7E7,#f4aeff, #7462ff);
+  height: 130px;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 5px #000000;
+  border: solid;
+  z-index: 100;
+
+}
+
+
+
+.picture-header {
+  position: absolute;
+  width: 560px;
+  top: -35px;
+  left: 395px;
+  
+  
+}
+
+
+@media screen and  (max-width: 414px) {
+ .profile-header {
+  position: absolute;
+  height: 90px;
+  
+  
+ }
+
+ .picture-header {
+  position: relative;
+  left: 0;
+  width: 400px;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+ }
+}

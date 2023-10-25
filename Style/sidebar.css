@@ -1,0 +1,44 @@
+
+
+.sidebar-left {
+  position: absolute;
+  left: -30px;
+  margin-left: 50px;
+  height: 120px;
+  top: -31px;
+  z-index: 5000;
+}
+
+
+.design {
+  width: 410px;
+  border-radius: 40%;
+}
+
+@media screen and (max-width: 414px) {
+  .sidebar-left {
+    position: absolute;
+    left: -30px;
+    margin-left: 56px;
+    height: 120px;
+    top: 189px;
+    
+   
+  }
+
+  .design {
+    width: 380px;
+    border-radius: 40%;
+    position: absolute;
+    z-index: 5000;
+  }
+
+
+  .aespa-profile-logo {
+    width: 100px;
+    background-color: rgb(228,131,244);
+    border-radius: 12px;
+    margin-left: 50px;
+    z-index: 5001;
+  }
+}

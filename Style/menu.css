@@ -1,0 +1,112 @@
+.menu-container {
+  position: fixed;
+  height: 100vh;
+  z-index: 0;
+  lefT: 0;
+  
+}
+
+@media screen and (max-width: 414px) {
+  .menu-container {
+    position: fixed;
+    height: 110vh;
+    z-index: 0;
+    lefT: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+.logo-container {
+  display: flex;
+  margin-top: 350px;
+  justify-content: center;
+  margin-right: 35px;
+  
+
+  
+
+}
+
+.container {
+  background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
+  width: 100%;
+  height: 3800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+  background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
+  width: 100%;
+  height: 4200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  }
+
+  
+}
+
+.aespa-container {
+  grid-template-columns: 100px 1fr;
+}
+
+.icon-name {
+  margin-left: 78px;
+  color: #B65FCF;
+  margin-top: 8px;
+}
+
+.icon-name-video {
+  margin-left: 70px;
+  color: #B65FCF;
+  margin-top: 8px;
+}
+
+
+.aespa-profile-logo {
+  width: 100px;
+  background-color: rgb(228,131,244);
+  border-radius: 12px;
+  margin-left: 50px;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s;
+  
+}
+
+.aespa-profile-logo:hover {
+  box-shadow: 5px 5px 10px #8255ff;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+
+.aespa-video-logo {
+  width: 100px;
+  background-color: rgb(228,131,244);
+  border-radius: 12px;
+  margin-left: 50px;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s;
+  
+}
+
+.aespa-video-logo:hover {
+  box-shadow: 5px 5px 10px #8255ff;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+
+

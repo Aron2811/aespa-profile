@@ -1,0 +1,650 @@
+* {
+  font-family: poppins;
+}
+
+.overall-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+
+.picture-container {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+
+
+.aespa-karina-picture {
+  width: 450px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 0;
+  transition: box-shadow 0.15s;
+
+}
+
+.aespa-karina-picture:hover {
+  box-shadow: 0px 0px 10px #8255ff;
+  cursor: pointer;
+}
+
+.title {
+  position: absolute;
+  top: 195px;
+  left: 700px;
+  font-size: 60px;
+  color: #fed8f7;
+  flex-direction: row;
+  text-align: right;
+  
+}
+
+.birth-name {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 375px;
+  left: 611px;
+  font-size: 36px;
+  
+}
+
+.birthday {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 470px;
+  left: 611px;
+  font-size: 36px;
+}
+
+.age {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 560px;
+  left: 610px;
+  font-size: 36px;
+}
+
+.soc-med {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 650px;
+  left: 611px;
+  font-size: 36px;
+}
+
+.insta {
+  position: absolute;
+  top: 720px;
+  left: 615px;
+  width: 56px;
+  border-radius: 14px;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s;
+}
+
+
+.insta:hover {
+  opacity: 0.8; 
+  box-shadow: 5px 5px 10px #8255ff;
+}
+
+/*Giselle*/
+
+.aespa-giselle-picture {
+  position: relative;
+  width: 400px;
+  top: 1070px;
+  left: 765px;
+  border-radius: 20px;
+  
+  transition: box-shadow 0.15s;
+
+}
+
+
+
+.aespa-giselle-picture:hover {
+  box-shadow: 0px 0px 10px #8255ff;
+  cursor: pointer;
+}
+
+.title2 {
+  position: absolute;
+  top: 1088px;
+  left: 265px;
+  font-size: 60px;
+  color: #fed8f7;
+  flex-direction: row;
+  text-align: right;
+  
+}
+
+.birth-name2 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 1250px;
+  left: 180px;
+  font-size: 36px;
+}
+
+.birthday2 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 1345px;
+  left: 180px;
+  font-size: 36px;
+}
+
+
+.age2 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 1440px;
+  left: 180px;
+  font-size: 36px;
+}
+
+.soc-med2 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 1538px;
+  left: 180px;
+  font-size: 36px;
+}
+
+.insta2 {
+  position: absolute;
+  top: 1615px;
+  left: 180px;
+  width: 56px;
+  border-radius: 14px;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s;
+
+}
+
+.insta2:hover {
+  opacity: 0.8; 
+  box-shadow: 5px 5px 10px #8255ff;
+}
+
+/*Winter*/
+
+
+.aespa-winter-picture {
+  position: relative;
+  width: 450px;
+  top: 1776px;
+  border-radius: 20px;
+  height: auto;
+
+
+}
+
+.aespa-winter-picture:hover {
+  box-shadow: 0px 0px 10px #8255ff;
+  cursor: pointer;
+}
+
+
+.title3 {
+  position: absolute;
+  top: 1975px;
+  left: 700px;
+  font-size: 60px;
+  color: #fed8f7;
+  flex-direction: row;
+  text-align: right;
+  height: auto;
+
+}
+
+.birth-name3 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 2131px;
+  left: 611px;
+  font-size: 36px;
+  height: auto;
+}
+
+.birthday3 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 2230px;
+  left: 611px;
+  font-size: 36px;
+  height: auto;
+}
+
+.age3 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 2323px;
+  left: 611px;
+  font-size: 36px;
+  height: auto;
+}
+
+.soc-med3 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 2420px;
+  left: 611px;
+  font-size: 36px;
+  height: auto;
+}
+
+.insta3 {
+  position: absolute;
+  top: 2495px;
+  left: 615px;
+  width: 56px;
+  border-radius: 14px;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s;
+}
+
+.insta3:hover {
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px #8255ff;
+}
+
+/*NINGNING PROFILE*/
+
+.aespa-ningning-picture {
+  position: relative;
+  width: 400px;
+  top: 2680px;
+  left: 665px;
+  border-radius: 20px;
+
+}
+
+.aespa-ningning-picture:hover {
+  box-shadow: 0px 0px 10px #8255ff;
+  cursor: pointer;
+}
+
+.title4 {
+  position: absolute;
+  top: 2905px;
+  left: 140px;
+  font-size: 60px;
+  color: #fed8f7;
+  flex-direction: row;
+  text-align: right;
+
+}
+
+.birth-name4 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 3060px;
+  left: 180px;
+  font-size: 36px;
+
+}
+
+.birthday4 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 3155px;
+  left: 180px;
+  font-size: 36px;
+
+}
+
+.age4 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 3255px;
+  left: 180px;
+  font-size: 36px;
+
+}
+
+.soc-med4 {
+  font-family: Architects Daughter;
+  position: absolute;
+  top: 3355px;
+  left: 180px;
+  font-size: 36px;
+
+}
+
+.insta4 {
+  position: absolute;
+  top: 3430px;
+  left: 180px;
+  width: 56px;
+  border-radius: 14px;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s;
+
+}
+
+.insta4:hover {
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px #8255ff;
+}
+
+
+/*Iphone*/
+@media screen and  (max-width: 414px) {
+  
+
+  .aespa-karina-picture {
+  width: 250px;
+
+
+}
+
+  .picture-container {
+    position: absolute;
+    left: 0;
+    margin-left: 85px;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+
+  .title {
+    position: absolute;
+    top: 195px;
+    left: 0;
+    margin-left: 60px;
+    margin-top: 400px;
+    font-size: 40px;
+    color: #fed8f7;
+    
+    }
+  
+  .birth-name {
+    position: absolute;
+    left: 0;
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 670px;
+    margin-left: 78px;
+    font-size: 36px;
+    
+  }
+  
+  .birthday {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 740px;
+    left: 22px;
+    font-size: 36px;
+  }
+  
+  .age {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 820px;
+    left: 143px;
+    font-size: 36px;
+  }
+  
+  .soc-med {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 895px;
+    left: 110px;
+    font-size: 36px;
+  }
+  
+  .insta {
+    position: absolute;
+    top: 960px;
+    left: 185px;
+    width: 56px;
+    border-radius: 14px;
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+  }
+
+
+  /*Giselle*/
+  .aespa-giselle-picture {
+    width: 250px;
+    left: 0;
+    
+
+  }
+  
+  .picture-container2 {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    margin-left: 85px;
+    
+  }
+  
+  .information {
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+  
+  .title2 {
+    position: absolute;
+    top: 630px;
+    left: 0;
+    margin-left: 60px;
+    margin-top: 900px;
+    font-size: 40px;
+    color: #fed8f7;
+    
+  }
+  
+  .birth-name2 {
+    position: absolute;
+    left: 0;
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 1600px;
+    margin-left: 55px;
+    font-size: 36px;
+  }
+  
+  .birthday2 {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 1675px;
+    left: 20px;
+    font-size: 30px;
+  }
+  
+  
+  .age2 {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 1747px;
+    left: 143px;
+    font-size: 36px;
+  }
+  
+  .soc-med2 {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 1825px;
+    left: 110px;
+    font-size: 36px;
+  }
+  
+  .insta2 {
+    position: absolute;
+    top: 1890px;
+    left: 185px;
+    width: 56px;
+    border-radius: 14px;
+    
+  
+  }
+  
+  
+
+  /*WINTER*/
+  .aespa-winter-picture {
+    width: 250px;
+    top: 1870px;
+  }
+  
+  
+  
+  .information {
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+  
+  
+  .title3 {
+    position: absolute;
+    top: 1600px;
+    left: 0;
+    margin-left: 60px;
+    margin-top: 900px;
+    font-size: 40px;
+    color: #fed8f7;
+  
+  }
+  
+  .birth-name3 {
+    position: absolute;
+    left: 0;
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 2570px;
+    margin-left: 55px;
+    font-size: 36px;
+  }
+  
+  .birthday3 {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 2645px;
+    left: 30px;
+    font-size: 33px;
+  }
+  
+  .age3 {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 2725px;
+    left: 150px;
+    font-size: 36px;
+  }
+  
+  .soc-med3 {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 2800px;
+    left: 110px;
+    font-size: 36px;
+  }
+  
+  .insta3 {
+    position: absolute;
+    top: 2870px;
+    left: 185px;
+    width: 56px;
+    border-radius: 14px;
+    
+  
+  }
+
+  /*NINGNING*/
+  .aespa-ningning-picture {
+    width: 250px;
+    left: 0;
+    top: 2850px;
+
+  }
+  
+  .picture-container4 {
+    position: absolute;
+    left: 0;
+    top: 230px;
+    margin-left: 85px;
+    
+  }
+  
+  .information {
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+  
+  .title4 {
+    position: absolute;
+    top: 630px;
+    left: 0;
+    margin-left: 42px;
+    margin-top: 2820px;
+    font-size: 40px;
+    color: #fed8f7;
+    
+  }
+  
+  .birth-name4 {
+    position: absolute;
+    left: 0;
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 3530px;
+    margin-left: 68px;
+    font-size: 36px;
+  }
+  
+  .birthday4 {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 3610px;
+    left: 20px;
+    font-size: 30px;
+  }
+  
+  
+  .age4 {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 3680px;
+    left: 143px;
+    font-size: 36px;
+  }
+  
+  .soc-med4 {
+    font-family: Architects Daughter;
+    position: absolute;
+    top: 3760px;
+    left: 110px;
+    font-size: 36px;
+  }
+  
+  .insta4 {
+    position: absolute;
+    top: 3830px;
+    left: 185px;
+    width: 56px;
+    border-radius: 14px;
+    
+  
+  }
+
+
+
+}
+
