@@ -1,21 +1,29 @@
 body {
   margin: 0;
   padding: 0;
-  
-
-}
-
-
-.video-container {
-  height: 200vh;
   background: linear-gradient(45deg,#A7C7E7,#f4aeff, #7462ff);
   
+  
+
 }
+
+
+.video-container { 
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  bottom: 0;
+  overflow-y: hidden;
+  
+
+}
+
 
 
 .video-container div {
   margin-left: 35px;
   
+
   
   
 }
@@ -28,18 +36,10 @@ body {
   border-radius: 30px;
 }
 
-.grid {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: -100px;
-  
-  
 
-}
 
 .image {
-  margin-top: 200px;
+  margin-top: 50px;
   margin-left: 200px;
   width: 75%;
   float: left;
