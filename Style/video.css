@@ -14,7 +14,7 @@ body {
   grid-template-columns: 1fr 1fr;
   bottom: 0;
   overflow-y: hidden;
-  
+  column-gap: 10px;
 
 }
 
