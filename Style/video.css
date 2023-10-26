@@ -99,9 +99,6 @@ figure {
   .video-container { 
     height: 120vh;
     left: 1;
-    overflow-y: hidden;
-    overflow-x: hidden; 
-
   
   }
 
