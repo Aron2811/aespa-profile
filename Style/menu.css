@@ -20,9 +20,6 @@ a{
   transition: box-shadow 0.15s;
 }
 
-.aespa-profile-logo:hover {
-  box-shadow: 5px 5px 10px  rgba(138,43,226);
-}
 
 .aespa-video-logo {
   width: 100px;
@@ -33,9 +30,7 @@ a{
   
 }
 
-.aespa-video-logo:hover {
-  box-shadow: 5px 5px 10px  rgba(138,43,226);
-}
+
 
 
 
@@ -131,12 +126,24 @@ a{
 }
 
 .design {
-    
+  
   width: 380px;
   border-radius: 40%;
   position: absolute;
   
 }
+
+.sidebar-left {
+  position: absolute;
+  left: -45px;
+  margin-left: 56px;
+  height: 120px;
+  top: -30px;
+  
+
+}
+
+
 
 
 
