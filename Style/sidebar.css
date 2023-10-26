@@ -18,7 +18,7 @@
 @media screen and (max-width: 414px) {
   .sidebar-left {
     position: absolute;
-    left: -30px;
+    left: -37px;
     margin-left: 56px;
     height: 120px;
     top: 30px;
@@ -26,21 +26,10 @@
 
   }
 
-  .design {
-    width: 380px;
-    border-radius: 40%;
-    position: absolute;
-    
-  }
+  
 
 
-  .aespa-profile-logo {
-    width: 100px;
-    background-color: rgb(228,131,244);
-    border-radius: 12px;
-    margin-left: 50px;
-    z-index: 5001;
-  }
+  
   
   video-link {
     display: block;

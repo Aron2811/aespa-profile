@@ -13,7 +13,7 @@ body {
   bottom: 0;
   overflow-y: hidden;
   column-gap: 10px;
-
+  
 }
 
 .content-container {
@@ -64,6 +64,7 @@ figure {
   width: 100%;
   height: auto;
   cursor: pointer;
+  
 }
 
 .image #zoom-in img {
@@ -119,7 +120,7 @@ figure {
 
   .image img {
     position: inherit;
-    margin-left: 55px;
+    margin-left: 35px;
     margin-right: 100px;
     width: 150px;
     height: auto;
