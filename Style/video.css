@@ -93,11 +93,18 @@ figure {
 
 
 @media screen and (max-width: 414px) {
+  
+  body {
+    overflow-x: hidden; 
+
+  }
+  
   .video-container { 
     height: 120vh;
     left: 1;
     overflow-y: hidden;
-    
+    overflow-x: hidden; 
+
   
   }
 

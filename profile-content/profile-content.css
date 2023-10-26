@@ -1,5 +1,7 @@
 * {
   font-family: poppins;
+  
+
 }
 
 .overall-container {
@@ -336,6 +338,10 @@
 /*Iphone*/
 @media screen and  (max-width: 414px) {
   
+  body {
+    overflow-x: hidden; 
+
+  }
 
   .aespa-karina-picture {
   width: 250px;
