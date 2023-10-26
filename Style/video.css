@@ -9,15 +9,19 @@ body {
 
 
 .video-container { 
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  height: 110vh;
   bottom: 0;
   overflow-y: hidden;
   column-gap: 10px;
 
 }
 
+.content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 300px;
+  
+}
 
 
 .video-container div {
@@ -87,3 +91,48 @@ figure {
 }
 
 
+@media screen and (max-width: 414px) {
+  .video-container { 
+    height: 110vh;
+    left: 1;
+    overflow-y: hidden;
+    
+  
+  }
+
+  .content-container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 180px;
+    
+  }
+
+  .image p {
+    font-size: 10px;
+    text-align: center;
+    background: -webkit-linear-gradient(  #CBA9DE,#6094D4, #8C6896 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+
+  .image img {
+    position: inherit;
+    margin-left: 55px;
+    margin-right: 100px;
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .video-container div {
+    margin-left: 26px;
+    
+  
+    
+    
+  }
+  
+}
