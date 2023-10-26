@@ -9,7 +9,7 @@ body {
 
 
 .video-container { 
-  height: 110vh;
+  height: 150vh;
   bottom: 0;
   overflow-y: hidden;
   column-gap: 10px;
