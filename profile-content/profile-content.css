@@ -338,9 +338,10 @@
 /*Iphone*/
 @media screen and  (max-width: 414px) {
   
-  body {
-    overflow-x: hidden; 
-
+  .container {
+    height: auto;
+    width: auto;
+    overflow-y: hidden;
   }
 
   .aespa-karina-picture {
@@ -475,7 +476,7 @@
   .age2 {
     font-family: Architects Daughter;
     position: absolute;
-    top: 1747px;
+    top: 1730px;
     left: 143px;
     font-size: 36px;
   }
@@ -483,14 +484,14 @@
   .soc-med2 {
     font-family: Architects Daughter;
     position: absolute;
-    top: 1825px;
+    top: 1790px;
     left: 110px;
     font-size: 36px;
   }
   
   .insta2 {
     position: absolute;
-    top: 1890px;
+    top: 1855px;
     left: 185px;
     width: 56px;
     border-radius: 14px;
@@ -556,14 +557,14 @@
   .soc-med3 {
     font-family: Architects Daughter;
     position: absolute;
-    top: 2800px;
+    top: 2780px;
     left: 110px;
     font-size: 36px;
   }
   
   .insta3 {
     position: absolute;
-    top: 2870px;
+    top: 2850px;
     left: 185px;
     width: 56px;
     border-radius: 14px;
@@ -635,14 +636,14 @@
   .soc-med4 {
     font-family: Architects Daughter;
     position: absolute;
-    top: 3760px;
+    top: 3740px;
     left: 110px;
     font-size: 36px;
   }
   
   .insta4 {
     position: absolute;
-    top: 3830px;
+    top: 3810px;
     left: 185px;
     width: 56px;
     border-radius: 14px;
