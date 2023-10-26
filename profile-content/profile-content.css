@@ -340,9 +340,8 @@
   
   .container {
     height: auto;
-    width: auto;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    width: 100%;
+    padding-right: 111px;
   }
 
   .aespa-karina-picture {
