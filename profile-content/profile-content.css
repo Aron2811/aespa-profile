@@ -342,6 +342,7 @@
     height: auto;
     width: auto;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .aespa-karina-picture {
