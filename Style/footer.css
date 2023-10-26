@@ -42,12 +42,12 @@
   
   
   .footer {
-    display: flex;
+    
     background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
-    border: solid;
+    
     height: 100px;
     margin-top: 1800px;
-    width: 410px;
+    width: 416px;
     position: absolute;
     text-align: center;
     bottom: 0;
