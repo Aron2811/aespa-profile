@@ -33,11 +33,11 @@ html {
 }
 
 
-@media screen and  (max-width: 414px) {
+@media screen and  (max-width: 767px) {
  .profile-header {
   position: absolute;
   height: 90px;
-  width: 410px;
+  width: 605px;
   
   
  }
@@ -48,6 +48,7 @@ html {
   width: 400px;
   margin-top: 10px;
   margin-right: 10px;
+  margin-left: 110px;
   
  }
 }

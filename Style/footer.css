@@ -24,7 +24,6 @@
   width: 100%;
   right: 0;
   position: absolute;
-  border-color: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
   text-align: center;
   bottom: -3350px;
   left: 0;
@@ -39,7 +38,7 @@
   color: red;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 767px) {
   
 
   
@@ -48,12 +47,12 @@
     background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
     display: flex;
     height: 100px;
-    margin-top: 1800px;
-    width: 410px;
+    margin-top: 2200px;
+    width: 605px;
     position: absolute;
     text-align: center;
     bottom: 0;
-    top: 2295px;
+    top: 2000px;
     
   }
   
@@ -63,7 +62,7 @@
     bottom: 0px;
     position: absolute;
     color: red;
-    margin-left: 17px;
+    margin-left: 130px;
     margin-bottom: 55px;
     
     

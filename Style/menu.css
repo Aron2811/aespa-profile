@@ -38,7 +38,7 @@ a{
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 767px) {
   .menu-container {
     position: fixed;
     height: 110vh;
@@ -56,34 +56,8 @@ a{
   margin-right: 35px;
   
 
-  
-
 }
 
-.container {
-  background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
-  width: 100%;
-  height: 3800px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-
-  
-}
-
-
-  .container {
-  background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
-  width: 100%;
-  height: 4200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  }
-
-  
 
 
 .aespa-container {

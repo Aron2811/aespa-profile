@@ -11,6 +11,17 @@
 }
 
 
+
+.container {
+  background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
+  width: 100%;
+  height: 4200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  }
+
 .picture-container {
   position: absolute;
   top: 200px;
@@ -339,10 +350,17 @@
 @media screen and  (max-width: 767px) {
   
   .container {
-    height: auto;
+    background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
     width: 100%;
-    
-  }
+    height: 4300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    }
+
+  
 
   .aespa-karina-picture {
   width: 250px;
@@ -353,7 +371,7 @@
   .picture-container {
     position: absolute;
     left: 0;
-    margin-left: 85px;
+    margin-left: 180px;
   }
 
   .information {
@@ -367,7 +385,7 @@
     position: absolute;
     top: 195px;
     left: 0;
-    margin-left: 60px;
+    margin-left: 150px;
     margin-top: 400px;
     font-size: 40px;
     color: #fed8f7;
@@ -380,7 +398,7 @@
     font-family: Architects Daughter;
     position: absolute;
     top: 670px;
-    margin-left: 78px;
+    margin-left: 170px;
     font-size: 36px;
     
   }
@@ -391,6 +409,7 @@
     top: 740px;
     left: 18px;
     font-size: 36px;
+    margin-left: 100px;
   }
   
   .age {
@@ -399,6 +418,7 @@
     top: 820px;
     left: 143px;
     font-size: 36px;
+    margin-left: 80px;
   }
   
   .soc-med {
@@ -407,6 +427,7 @@
     top: 895px;
     left: 110px;
     font-size: 36px;
+    margin-left: 75px;
   }
   
   .insta {
@@ -414,6 +435,7 @@
     top: 960px;
     left: 185px;
     width: 56px;
+    margin-left: 75px;
     border-radius: 14px;
     transition: opacity 0.15s;
     transition: box-shadow 0.15s;
@@ -432,7 +454,7 @@
     position: absolute;
     left: 0;
     top: 60px;
-    margin-left: 85px;
+    margin-left: 180px;
     
   }
   
@@ -447,7 +469,7 @@
     position: absolute;
     top: 630px;
     left: 0;
-    margin-left: 60px;
+    margin-left: 150px;
     margin-top: 900px;
     font-size: 40px;
     color: #fed8f7;
@@ -460,7 +482,7 @@
     font-family: Architects Daughter;
     position: absolute;
     top: 1600px;
-    margin-left: 40px;
+    margin-left: 130px;
     font-size: 36px;
   }
   
@@ -469,31 +491,35 @@
     position: absolute;
     top: 1675px;
     left: 35px;
-    font-size: 27px;
+    margin-left: 30px;
+    font-size: 36px;
   }
   
   
   .age2 {
     font-family: Architects Daughter;
     position: absolute;
-    top: 1730px;
+    top: 1755px;
     left: 143px;
+    margin-left: 80px;
     font-size: 36px;
   }
   
   .soc-med2 {
     font-family: Architects Daughter;
     position: absolute;
-    top: 1790px;
+    top: 1830px;
     left: 110px;
+    margin-left: 75px;
     font-size: 36px;
   }
   
   .insta2 {
     position: absolute;
-    top: 1855px;
+    top: 1900px;
     left: 185px;
     width: 56px;
+    margin-lefT: 75px;
     border-radius: 14px;
     
   
@@ -505,6 +531,7 @@
   .aespa-winter-picture {
     width: 250px;
     top: 1870px;
+    
   }
   
   
@@ -521,7 +548,7 @@
     position: absolute;
     top: 1600px;
     left: 0;
-    margin-left: 60px;
+    margin-left: 150px;
     margin-top: 900px;
     font-size: 40px;
     color: #fed8f7;
@@ -534,7 +561,7 @@
     font-family: Architects Daughter;
     position: absolute;
     top: 2570px;
-    margin-left: 55px;
+    margin-left: 130px;
     font-size: 36px;
   }
   
@@ -542,15 +569,17 @@
     font-family: Architects Daughter;
     position: absolute;
     top: 2645px;
-    left: 70px;
-    font-size: 26px;
+    left: 0px;
+    margin-left: 100px;
+    font-size: 36px;
   }
   
   .age3 {
     font-family: Architects Daughter;
     position: absolute;
     top: 2710px;
-    left: 150px;
+    left: 0px;
+    margin-left: 230px;
     font-size: 36px;
   }
   
@@ -559,6 +588,7 @@
     position: absolute;
     top: 2780px;
     left: 110px;
+    margin-left: 75px;
     font-size: 36px;
   }
   
@@ -566,6 +596,7 @@
     position: absolute;
     top: 2850px;
     left: 185px;
+    margin-left: 75px;
     width: 56px;
     border-radius: 14px;
     
@@ -599,7 +630,7 @@
     position: absolute;
     top: 630px;
     left: 0;
-    margin-left: 42px;
+    margin-left: 130px;
     margin-top: 2820px;
     font-size: 40px;
     color: #fed8f7;
@@ -612,7 +643,7 @@
     font-family: Architects Daughter;
     position: absolute;
     top: 3530px;
-    margin-left: 68px;
+    margin-left: 155px;
     font-size: 36px;
   }
   
@@ -621,37 +652,41 @@
     position: absolute;
     top: 3610px;
     left: 38px;
-    font-size: 26px;
+    margin-left: 30px;
+    font-size: 36px;
   }
   
   
   .age4 {
     font-family: Architects Daughter;
     position: absolute;
-    top: 3668px;
+    top: 3690px;
     left: 143px;
+    margin-left: 80px;
     font-size: 35px;
   }
   
   .soc-med4 {
     font-family: Architects Daughter;
     position: absolute;
-    top: 3740px;
+    top: 3775px;
     left: 110px;
+    margin-left: 75px;
     font-size: 36px;
   }
   
   .insta4 {
     position: absolute;
-    top: 3810px;
+    top: 3850px;
     left: 185px;
+    margin-left: 75px;
     width: 56px;
     border-radius: 14px;
     
   
   }
 
-
+  
 
 }
 
