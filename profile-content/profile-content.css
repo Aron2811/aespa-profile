@@ -351,12 +351,14 @@
   
   .container {
     background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
-    width: 1738px;
+    width: 767px;
     height: 4300px;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
+    right: 0;
+    overflow: hidden;
     
     }
 
