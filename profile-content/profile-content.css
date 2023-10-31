@@ -346,12 +346,13 @@
 }
 
 
-/*Iphone*/
+/*device*/
 @media screen and  (max-width: 767px) {
+  
   
   .container {
     background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
-    width: 605px;
+    width: 767px;
     height: 4300px;
     position: absolute;
     top: 0;
@@ -360,12 +361,13 @@
     right: 0;
     overflow: hidden;
     
+    
     }
 
   
 
   .aespa-karina-picture {
-  width: 250px;
+  width: 400px;
 
 
 }
@@ -373,7 +375,7 @@
   .picture-container {
     position: absolute;
     left: 0;
-    margin-left: 180px;
+    margin-left: 190px;
   }
 
   .information {
@@ -385,11 +387,11 @@
 
   .title {
     position: absolute;
-    top: 195px;
+    top: 430px;
     left: 0;
-    margin-left: 150px;
+    margin-left: 165px;
     margin-top: 400px;
-    font-size: 40px;
+    font-size: 60px;
     color: #fed8f7;
     
     }
@@ -399,45 +401,45 @@
     left: 0;
     font-family: Architects Daughter;
     position: absolute;
-    top: 670px;
-    margin-left: 170px;
-    font-size: 36px;
+    top: 900px;
+    margin-left: 245px;
+    font-size: 40px;
     
   }
   
   .birthday {
     font-family: Architects Daughter;
     position: absolute;
-    top: 740px;
+    top: 960px;
     left: 18px;
-    font-size: 36px;
-    margin-left: 100px;
+    font-size: 40px;
+    margin-left: 150px;
   }
   
   .age {
     font-family: Architects Daughter;
     position: absolute;
-    top: 820px;
+    top: 1030px;
     left: 143px;
     font-size: 36px;
-    margin-left: 80px;
+    margin-left: 170px;
   }
   
   .soc-med {
     font-family: Architects Daughter;
     position: absolute;
-    top: 895px;
+    top: 1100px;
     left: 110px;
     font-size: 36px;
-    margin-left: 75px;
+    margin-left: 165px;
   }
   
   .insta {
     position: absolute;
-    top: 960px;
+    top: 1180px;
     left: 185px;
     width: 56px;
-    margin-left: 75px;
+    margin-left: 165px;
     border-radius: 14px;
     transition: opacity 0.15s;
     transition: box-shadow 0.15s;
@@ -446,7 +448,7 @@
 
   /*Giselle*/
   .aespa-giselle-picture {
-    width: 250px;
+    width: 400px;
     left: 0;
     
 
@@ -455,8 +457,8 @@
   .picture-container2 {
     position: absolute;
     left: 0;
-    top: 60px;
-    margin-left: 180px;
+    top: 350px;
+    margin-left: 190px;
     
   }
   
@@ -471,9 +473,9 @@
     position: absolute;
     top: 630px;
     left: 0;
-    margin-left: 150px;
-    margin-top: 900px;
-    font-size: 40px;
+    margin-left: 175px;
+    margin-top: 1410px;
+    font-size: 60px;
     color: #fed8f7;
     
   }
@@ -532,7 +534,7 @@
   /*WINTER*/
   .aespa-winter-picture {
     width: 250px;
-    top: 1870px;
+    top: 2000px;
     
   }
   
