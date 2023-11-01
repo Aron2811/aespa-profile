@@ -348,11 +348,12 @@
 
 /*device*/
 @media screen and  (max-width: 767px) {
-  
+  body {
+    overflow-x: hidden;
+  }
   
   .container {
     background: linear-gradient(45deg,#7462ff, #f4aeff,#A7C7E7);
-    width: auto;
     height: 4300px;
     position: absolute;
     top: 0;
